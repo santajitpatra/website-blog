@@ -5,7 +5,7 @@ const nextConfig = {
     appDir: true
   },
   images: {
-    domains: ["santajitpatra.netlify.app"],
+    domains: ["santajitpatra.netlify.app", "cdn.sanity.io"],
   }
 }
 
