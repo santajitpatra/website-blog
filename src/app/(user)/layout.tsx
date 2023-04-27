@@ -1,6 +1,8 @@
 import "@/styles/globals.css";
 import Header from "@/components/Header";
 import Banner from "@/components/Banner";
+import Footer from "@/components/Footer";
+
 
 export const metadata = {
   title: "Next.js",
@@ -18,6 +20,7 @@ export default function RootLayout({
         <Header />
         <Banner />
         {children}
+        <Footer/>
       </body>
     </html>
   );
