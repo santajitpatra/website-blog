@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^3.0.0",
     "@sanity/vision": "^3.0.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@types/node": "18.16.0",

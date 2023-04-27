@@ -14,7 +14,7 @@ const Header = () => {
             alt="logo"
           />
         </Link>
-        <h1>The PAPAFAM</h1>
+        <h1>The SANTAJIT</h1>
       </div>
       <div>
         <Link
