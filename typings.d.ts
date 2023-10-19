@@ -60,7 +60,7 @@ interface Category extends Base {
   title: string;
 }
 
-interface MainImage {
+interface mainImage {
   _type: "image";
   asset: Reference;
 }
