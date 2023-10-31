@@ -27,6 +27,7 @@ export const RichTextComponents = {
   },
 
   block: {
+    
     h1: ({ children }: any) => (
       <h1 className="text-5xl py-10 font-bold">{children}</h1>
     ),
@@ -41,8 +42,7 @@ export const RichTextComponents = {
     ),
     blockquote: ({ children }: any) => (
       <blockquote className="border-1-[#F7AB0A] border-1-4 pl-5 py-5 my-5">
-        {" "}
-        {children}{" "}
+        {children}
       </blockquote>
     ),
   },
